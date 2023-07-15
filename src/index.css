@@ -2,3 +2,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @layer Components{
+    .MainIcon{
+        @apply w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex
+        item-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColorcursor-pointer duration-300;
+    }
+} */

@@ -25,31 +25,40 @@ const Projects = () => {
     <div className=' grid grid-cols-3 gap-20 ' >
         <ProjectCard
         title="Random Website"
-        des="Lorem 2 AJSHF iohgwej ftiuwef iuweuitr wle wuE OIUWGETOR HWEKiuqeroiwu rowieh rowiur iou" 
+        des="This is a frontend webpage which is made to show the implementation of HTML, CSS" 
         src={image1}
         href="https://github.com/Nilesh911/RandomWebsite"
-        Link="random-website-rho.vercel.app"
+        link="random-website-rho.vercel.app"
         />
         <ProjectCard
         title="E-commerce Website"
-        des="Lorem 2 AJSHF iohgwej ftiuwef iuweuitr wle wuE OIUWGETOR HWEKiuqeroiwu rowieh rowiur iou" 
+        des="Online Clothing Store made using ReactJS." 
         src={image2}
         href="https://github.com/Nilesh911/Q-mart"
         />
         <ProjectCard
         title="Portfolio Website"
-        des="Lorem 2 AJSHF iohgwej ftiuwef iuweuitr wle wuE OIUWGETOR HWEKiuqeroiwu rowieh rowiur iou" 
+        des="My Portfolio which is made using ReactJS. It displays my skills and the projects I've worked on." 
         src={image3}
         href="https://github.com/Nilesh911/PortfolioWebSite"
         href2=""
         />
         <ProjectCard
         title="MockTrail Website"
-        des="Lorem 2 AJSHF iohgwej ftiuwef iuweuitr wle wuE OIUWGETOR HWEKiuqeroiwu rowieh rowiur iou" 
+        des="Project used to implement my skills in MERN stack development. This is a Ticket Booking App that enables us to book tickets and recieve them through emails." 
         src={image4}
         href="https://github.com/Nilesh911/Mock-trail"
         />
 
+    </div>
+    <div className='flex justify-center items-center text-center hover:text-designColor duration-1000 cursor-pointer'>
+        <h2 className=''>
+        E-mail:phadatarenilesh1@gmail.com
+        </h2>
+        /
+        <span className=''>
+            Phone No:9324102132
+        </span>
     </div>
     </section>
   )

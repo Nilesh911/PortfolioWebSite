@@ -4,6 +4,6 @@ body{
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-  max-width: 100vw;
-  background-color: #212428;
+  max-width: 100%;
+  /* background-color: #212428; */
 }

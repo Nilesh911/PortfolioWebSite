@@ -4,7 +4,7 @@ import {FaLinkedinIn,FaReact,FaTwitter,FaInstagram,FaGithub} from "react-icons/f
 import {SiTailwindcss,SiCss3,SiHtml5,} from "react-icons/si";
 import {Link} from "react-router-dom"
 
-import Me from "../../../../frontend/src/assets/Me.png"
+import Me from "../../assets/Me.png"
 
 
 const Main = () => {
